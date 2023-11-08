@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.imageBox {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  margin-left: -50px;
+  left: 50%;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  top: 0px;
+  display: none;
+  margin-left: -48px;
+  left: 50%;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+  position: absolute;
+  margin-left: -48px;
+  left: 50%;
+}
